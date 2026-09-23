@@ -1,6 +1,3 @@
-jmeno = input("Jak se jmenuješ? ")
-jidlo = input("Jaké je tvé oblíbené jídlo? ")
-
-print()
-print("Ahoj,", jmeno + "!")
-print("Tvé oblíbené jídlo je:", jidlo)
+a = 4
+b = 3
+print( a , b, a, "+", b, "=", a, "**3", b, "=/3.14", "=",  float)
