@@ -1,25 +1,13 @@
-x = 11111111
-if  x > 18:
-    print("Dospělý")
-elif x >= 15:
-    print("Dospívající")
-elif x > 0: 
- print("Dítě")
-elif x <= 0:
- print ("Neplatný věk")
+Cislo1 = int(input("Zadej první číslo"))
+Cislo2 = int(input("Zadej druhé číslo"))
+pocitani = int(input("Co s tím chceš dělat"))
 
 
+if pocitani == "sčítání":
+    print("Cislo1+Cislo2")
 
+elif pocitani == "odčítání":
+    print("Cislo1-Cislo2")
 
-
-
-
-
-
-
-
-
-
-
-
- 
+elif pocitani == "násobení":
+    print("Cislo1*Cislo2")
