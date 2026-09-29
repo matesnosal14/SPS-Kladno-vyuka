@@ -1,3 +1,25 @@
-a = 4
-b = 3
-print( a , b, a, "+", b, "=", a, "**3", b, "=/3.14", "=",  float)
+x = 11111111
+if  x > 18:
+    print("Dospělý")
+elif x >= 15:
+    print("Dospívající")
+elif x > 0: 
+ print("Dítě")
+elif x <= 0:
+ print ("Neplatný věk")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
