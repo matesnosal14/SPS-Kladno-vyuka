@@ -1,19 +1,11 @@
-cislo1 = float(input("Zadej své první číslo: "))
-cislo2 = float(input("Zadej své druhé číslo: "))
-operace = input("Jakou operaci chceš provést ?")
+pismeno = "a"
+slovo = "abracadabra"
+a = 10
+b = 3
+x = 5
+y = 6
 
-if operace == "+"  :
-    print(f" Výsledek: {cislo1 + cislo2}")
-elif operace == "-":
-    print(f" Výsledek: {cislo1 - cislo2}")
-elif operace == "*":
-    print(f" Výsledek: {cislo1 * cislo2}")
-elif operace == "/":
-    if cislo2 == 0:
-        print("Nulou nelze dělit tlamo! ")
-    else:
-        print(f" Výsledek: {cislo1 / cislo2}")
-else:
-    print("Neznámá operace")
-
-
+if pismeno in slovo or x is y or (a + b) > 15:
+    print("Podmínka splněna")
+else: 
+    print("Podmínka nesplněna")
