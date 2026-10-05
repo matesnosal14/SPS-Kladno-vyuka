@@ -1,11 +1,8 @@
-pismeno = "a"
-slovo = "abracadabra"
-a = 10
-b = 3
-x = 5
-y = 6
+heslo = input("Zadej své heslo: Nesmí obsahovat #! ")
+zakazany_znak = "#"
 
-if pismeno in slovo or x is y or (a + b) > 15:
-    print("Podmínka splněna")
-else: 
-    print("Podmínka nesplněna")
+if len(heslo) <= 8 or zakazany_znak in heslo:
+    print("Nebezpečné heslo")
+else:
+    print("Heslo je bezpečné")
+
