@@ -1,8 +1,11 @@
-heslo = input("Zadej své heslo: Nesmí obsahovat #! ")
-zakazany_znak = "#"
+kosik = ["BOTY" , "TRIČKO" , "PONOŽKY"]
 
-if len(heslo) <= 8 or zakazany_znak in heslo:
-    print("Nebezpečné heslo")
+print(f"Toto máte v seznamu {kosik}")
+
+odebrani = input("Co chcete z košíku odstranit? ").upper()
+
+if (odebrani) in kosik:
+    kosik.remove(odebrani)
+    print(f"Položka odebrána. Tvůj nový košík: {kosik}") 
 else:
-    print("Heslo je bezpečné")
-
+    print("Toto není vůbec v košíku")
