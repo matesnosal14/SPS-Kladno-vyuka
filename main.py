@@ -1,10 +1,11 @@
-nakup = ["Opice" , "Jablko" , "Pes"]
-nakup.remove("Opice")
-srovnanilistu = sorted(nakup)
-print(srovnanilistu)
+kontakty = {
+    "Anna": "608 111 222",
+    "Petr": "777 333 444",
+    "Jana": "602 555 666"
+}
 
-for i in range(len(nakup)):
-    print(f"{i}. {nakup[i]}")
+print(kontakty)
+
 
 
 
