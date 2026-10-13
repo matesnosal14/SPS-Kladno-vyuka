@@ -1,8 +1,11 @@
-cisla = [12, 45, 89, 3, 102, 55]
-pocitadlo = 0
+nakup = ["Opice" , "Jablko" , "Pes"]
+nakup.remove("Opice")
+srovnanilistu = sorted(nakup)
+print(srovnanilistu)
 
-for cislo in cisla:
-    if cislo > 50:
-        pocitadlo += 1
+for i in range(len(nakup)):
+    print(f"{i}. {nakup[i]}")
 
-print(f"Počet čísel většich než 50 je: {pocitadlo}")
+
+
+
