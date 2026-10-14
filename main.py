@@ -1,10 +1,10 @@
-kontakty = {
-    "Anna": "608 111 222",
-    "Petr": "777 333 444",
-    "Jana": "602 555 666"
-}
+x = int(input("Zadej první číslo: "))
+y = int(input("Zadej druhé číslo: "))
 
-print(kontakty)
+while x and y < y :
+        if x 
+
+print(f" Čísla mezi {x} a {y} jsou: ")
 
 
 
