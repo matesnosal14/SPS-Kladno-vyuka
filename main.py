@@ -1,12 +1,8 @@
-x = int(input("Zadej první číslo: "))
-y = int(input("Zadej druhé číslo: "))
+vek = int(input("Kolik ti je let? "))
+obcanstvi = input("Jsi občan ČR? ")
 
-while x and y < y :
-        if x 
-
-print(f" Čísla mezi {x} a {y} jsou: ")
-
-
-
-
+if vek >= 18 and obcanstvi == "ano":
+    print("Můžeš volit")
+else:
+    print("VOlit nemůžeš!")
 
