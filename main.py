@@ -1,8 +1,10 @@
-vek = int(input("Kolik ti je let? "))
-obcanstvi = input("Jsi občan ČR? ")
+def dvojpozdrav(jmeno1 , jmeno2):
+    delka = len()
 
-if vek >= 18 and obcanstvi == "ano":
-    print("Můžeš volit")
-else:
-    print("VOlit nemůžeš!")
+
+for prvni in ["Adam", "Bert", "Cyril"]:
+    for druha in ["Aneta", "Bára", "Cecílie"]:
+        delka = dvojpozdrav(prvni, druha)
+        print(f"Pozdrav zabere {delka} znaků.")
+
 
